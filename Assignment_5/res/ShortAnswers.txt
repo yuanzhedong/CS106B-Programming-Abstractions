@@ -1,0 +1,70 @@
+Q1: Windows
+
+
+Q2: elems[3] = {name: <not accesible>, weight: 0}
+    elems[4] = {name: <not accesible>, weight: 0}
+    elems[5] = {name: <not accesible>, weight: 0}
+
+Q3:
+
+A:
+               Jackie
+                1951
+             /        \
+           Tito      Jermaine
+           1953        1954
+          /    \
+     Michael   Marlon
+      1958      1957   
+           
+B:
+               Jackie
+                1951
+             /        \
+           Tito      Michael
+           1953        1958
+          /    \
+     Jermaine  Marlon
+       1954     1957   
+           
+
+C:
+               Jackie
+                1951
+             /        \
+           Tito      Marlon
+           1953       1957
+          /    \
+     Michael  Jermaine
+      1958      1954
+           
+
+Q4:   
+
+            T1
+         /      \
+        /        \
+       B3        G2
+     /    \    /    \
+    S6    A5  V9    R4
+   /  \
+  O8  K7
+
+
+Q5:
+
+
+            G2
+         /      \
+        /        \
+       B3        R4
+     /    \    /    \
+    S6    A5  V9    K7
+   /  
+  O8  
+
+
+Q6: 
+
+[G2, B3, R4, S6, A5, V9, K7, O8]
+
