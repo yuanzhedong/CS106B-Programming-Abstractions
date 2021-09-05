@@ -2,7 +2,8 @@
 Stanford's CS106B course assignments, programming in C++
 
 Topics:
-**1. Welcome to C++**
+**1. Welcome to C++
+**
 
 - C++ Programming Language
 - Functions in C++
