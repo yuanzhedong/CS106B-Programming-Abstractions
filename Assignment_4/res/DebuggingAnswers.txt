@@ -1,0 +1,48 @@
+Put the answers to the debugging questions from Problem One in this file.
+
+Q1:
+numDisks: 5
+start: 'A'
+finish: 'C'
+temp: 'B'
+
+Q2:
+The function was defined in the file TowersOfHanoiGUI.cpp
+The function is called "makeTheMagicHappen"
+
+Q3:
+Total moves required to solve this instance of TowersOfHanoi: 31
+
+Q4:
+The value of totalMoves after executing the first recursive call: 15
+
+Q5:
+Any two-character string will produce the error. For example: "ab", which will produce a permutation of "aba".
+
+Q6:
+The error in the program is the "=" sign in chosen += ch
+
+Q7:
+We'll use the example with string "ab" to illustrate the general bug in the code.
+
+1. In the first call, we jump into the case i=0 and the recursive function assigns "a" as char 
+   and "b" as remaining and calls the next recursive call correctly, permutationsRec(b,a). 
+   Chosen here is an empty string, so the function is calling an empty string + char.
+
+2. In the second call, the recursive function assigns "b" as char and an empty string as remaining,
+   it calls the next recursive function, permutationsRec("", ab). Notice that this is the addition of 
+   chosen=a and char=b.
+
+3. This third call triggers the base case and returns chosen, which at this point is "ab". However,
+   when it goes to the previous stack, chosen is really "a", because each function call holds local copies of 
+   the variables
+
+4. Then, the recursive function goes into the next case, where i=1. We will begin to explore what happens if we
+   choose b first, instead of choosing a first.
+
+5. In this case, the string is "ab", but chosen is "a"! Because we are looking at "b" now, the function will assign
+   "b" as char, and "a" as remaining. It will then call the function permutationsRec(a, ab). This last argument
+   is chosen =+ char.
+
+6. In the next call, the recursive function will take "a" as char and an empty string as remaining. It will then call
+   permutationsRec("", aba), which will return "aba". This is the mistake!

@@ -1,0 +1,14 @@
+spl.o
+RisingTides.o
+YouGotHufflepuff.o
+DownloadCache.o
+EmptyProblemHandler.o
+GColorConsole.o
+GUIMain.o
+GUIUtils.o
+ProblemHandler.o
+RisingTidesGUI.o
+TestingGUI.o
+YouGotHufflepuffGUI.o
+YouGotHufflepuffTypes.o
+TestDriver.o
