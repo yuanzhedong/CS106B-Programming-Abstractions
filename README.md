@@ -2,8 +2,8 @@
 Stanford's CS106B course assignments, programming in C++
 
 Topics:
-**1. Welcome to C++**
 
+**1. Welcome to C++**
 - C++ Programming Language
 - Functions in C++
 - Recursive Functions
@@ -16,8 +16,7 @@ Topics:
 - Stack and Queue
 - HashMap, HashSet, Lexicon
 
-**3. Recursive Problem-Solving
-**
+**3. Recursive Problem-Solving**
 - Graphical Recursion
 - Recursive Problem-Solving
 - Enumerating Subsets
@@ -25,13 +24,11 @@ Topics:
 - Enumerating Combinations
 - Recursive Backtracking
 
-**4. Algorithmic Efficiency
-**
+**4. Algorithmic Efficiency**
 - Big-O Notation
 - Searching and Sorting
 
-**5. Abstraction and Dynamic Arrays
-**
+**5. Abstraction and Dynamic Arrays**
 - Desigining Abstractions
 - Dynamic Allocation
 - Implementing Stack
@@ -40,17 +37,14 @@ Topics:
 - Linear Probing
 - Hashing Strategies
 
-**6. Linked Lists
-**
+**6. Linked Lists**
 - Linked Lists, Parts I, II and III
 
-**7. Binary Trees
-**
+**7. Binary Trees**
 - Binary Search Trees
 - Huffman Encoding
 
-**8. Looking Forward
-**
+**8. Looking Forward**
 - Graphs
 - Graph Searches
 - Clustering Algorithm
