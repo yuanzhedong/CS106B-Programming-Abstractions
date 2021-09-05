@@ -2,8 +2,7 @@
 Stanford's CS106B course assignments, programming in C++
 
 Topics:
-**1. Welcome to C++
-**
+**1. Welcome to C++**
 
 - C++ Programming Language
 - Functions in C++
@@ -11,8 +10,7 @@ Topics:
 - Strings and Streams
 - Recursion over Strings
 
-**2. Fundamental Data Types
-**
+**2. Fundamental Data Types**
 - Vector and Grid
 - Branching Recursion
 - Stack and Queue
